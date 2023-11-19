@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+  --font-family: "Ubuntu", sans-serif;
+  --bg-color: #19bdc0;
+  --primary-color: #291c1c;
+}
+
+body {
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 4em;
+}
+h3 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.mensagem {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.box {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-jogar {
+  color: var(--bg-color);
+  padding: 8% 15%;
+  border: 0;
+  background: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+}
